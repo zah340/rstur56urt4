@@ -1,0 +1,29 @@
+{
+  "name": "hive-sniping-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for tracking Hive player game results",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "hive",
+    "minecraft",
+    "tracking"
+  ],
+  "author": "JuicyMusic",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bottleneck": "^2.19.5",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
